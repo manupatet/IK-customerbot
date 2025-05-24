@@ -1,0 +1,37 @@
+[
+  {
+    "id": "prod_1",
+    "name": "Smart Thermostat X1000",
+    "features": "Wi-Fi enabled, voice control, energy saving mode, programmable schedule, mobile app access",
+    "category": "Home Automation",
+    "price": 129.99
+  },
+  {
+    "id": "prod_2",
+    "name": "Wireless Noise-Cancelling Headphones Z-Pro",
+    "features": "Bluetooth 5.0, active noise cancellation, 30-hour battery life, built-in microphone, foldable design",
+    "category": "Audio",
+    "price": 199.50
+  },
+  {
+    "id": "prod_3",
+    "name": "Ultra HD 4K Action Camera",
+    "features": "4K video recording, waterproof up to 30m, 16MP photos, Wi-Fi and HDMI connectivity, wide-angle lens",
+    "category": "Electronics",
+    "price": 89.99
+  },
+  {
+    "id": "prod_4",
+    "name": "Ergonomic Office Chair Pro",
+    "features": "Adjustable lumbar support, breathable mesh back, customizable armrests, smooth-rolling casters, high-density foam seat",
+    "category": "Office Furniture",
+    "price": 249.00
+  },
+  {
+    "id": "prod_5",
+    "name": "Robotic Vacuum Cleaner R500",
+    "features": "Smart navigation, self-charging, app control, anti-drop sensors, suitable for pet hair",
+    "category": "Home Appliances",
+    "price": 179.99
+  }
+]
