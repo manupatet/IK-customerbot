@@ -1,0 +1,48 @@
+# Git specific
+.git
+.gitignore
+
+# Node modules (these will be installed within Docker)
+node_modules
+
+# Next.js build output (this will be generated within Docker)
+.next
+
+# Docker specific files
+Dockerfile
+.dockerignore
+
+# Environment files (should be injected at runtime, not built into image)
+.env
+.env*.local
+.env.development
+.env.production
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/IDE specific
+.vscode
+.idea
+
+# OS specific files (e.g., macOS)
+.DS_Store
+Thumbs.db
+
+# Config files not needed in the final production image
+apphosting.yaml
+components.json
+tsconfig.json # TypeScript config, not needed after build to JavaScript
+
+# Markdown files
+README.md
+
+# Development specific Genkit files if any (Genkit flows in src/ai/flows are part of the app)
+# Example: src/ai/dev.ts (if it's only for local Genkit dev server)
+# No need to explicitly ignore src/ai/dev.ts as it's not copied to runner if not part of build output
+
+# Turbopack cache
+.turbo
